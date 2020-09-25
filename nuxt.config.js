@@ -1,4 +1,8 @@
 export default {
+  router: {
+    middleware: [`userAgent`],
+  },
+
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'lmoney',

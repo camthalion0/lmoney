@@ -71,6 +71,7 @@ export default {
     Logo,
     VuesaxLogo,
   },
+  layout: (ctx) => (ctx.isMobile ? 'mobile' : 'default'),
 }
 </script>
 
